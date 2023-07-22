@@ -1,0 +1,11 @@
+.*
+!.gitignore
+!.babelrc
+!.eslintrc.json
+
+*.swp
+
+node_modules/
+plugins/
+dist/
+data/

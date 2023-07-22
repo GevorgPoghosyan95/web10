@@ -1,9 +1,10 @@
 import {ConnectionOptions} from "typeorm";
 import * as process from "process";
 import migrationsList from "./migrations-list";
-import ClientEntity from "../entities/client.entity";
+import ClientEntity from "../../entities/client/client.entity";
 
 export const config: ConnectionOptions = {
+    name:'clientConnection',
     type: 'postgres',
     host: 'db',
     port: 5432,

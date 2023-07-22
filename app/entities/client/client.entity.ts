@@ -8,6 +8,9 @@ export default class ClientEntity extends BaseEntity{
     @Column('varchar')
     name: string;
 
+    @Column('integer',{nullable:true})
+    subscription_id: number;
+
     @Column('varchar')
     email: string;
 }

@@ -8,7 +8,7 @@ export const AppDataSource =  new DataSource({
     username: 'pako',
     password:'test',
     database: 'client',
-    entities: ['app/client/**/entities/*.entity.ts'],
+    entities: ['app/entities/subscription/*.entity.ts'],
     migrations
 })
 
